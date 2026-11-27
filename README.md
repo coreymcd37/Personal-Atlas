@@ -1,5 +1,9 @@
 # Personal Atlas
 
+[![MIT license](https://img.shields.io/github/license/coreymcd37/Personal-Atlas?style=flat-square)](LICENSE)
+[![Node 22](https://img.shields.io/badge/node-22-339933?style=flat-square&logo=node.js&logoColor=white)](package.json)
+[![Help wanted](https://img.shields.io/github/issues/coreymcd37/Personal-Atlas/help%20wanted?style=flat-square&color=008672)](https://github.com/coreymcd37/Personal-Atlas/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+
 A free 3D globe for the places you have lived, the places you have been, and the places you still want to go.
 
 I made this so I could see my own life on a map. The footprints are that walk. I left it open so you can take it, change the places, and make it yours. You do not need to know how to build a globe. That part is already here.
