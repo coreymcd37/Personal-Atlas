@@ -1,36 +1,36 @@
 # Personal Atlas
 
-A free, open 3D globe you can make your own.
+A free 3D globe for the places you have lived, the places you have been, and the places you still want to go.
 
-I built this so I could see the places I have lived and the places I have walked. The footprints on the earth are that walk. I am putting it out so anyone can use it, change it, and tell their own story with it.
+I made this so I could see my own life on a map. The footprints are that walk. I left it open so you can take it, change the places, and make it yours. You do not need to know how to build a globe. That part is already here.
 
-You do not need to be able to build something like this from scratch. Fork it. Change the places. The rest of the globe is already here.
+## What you can do
 
-## What it is
+- Drag, pinch, and zoom the earth.
+- Tap a place and read a short note.
+- See where I lived, and for how long.
+- Follow the footprints between the cities I have been.
+- Open the key when you need it, and close it when you do not.
+- Switch between day and night. At night, the cities light the earth.
 
-- A full-screen globe you can drag, pinch, and zoom.
-- Places I have lived, with how long I was there.
-- Footprints between the cities and countries I have been.
-- A key you can open and close.
-- A day look and a night look. At night the cities carry the light.
-- Tap a place and it tells you a little about it.
+## What I still want
 
-## What I want it to become
+My route is the example. It should not be the only map.
 
-I do not want my life hardcoded as the only map.
+You should be able to add a city without opening a code file. The footprints should walk themselves from one place you chose to the next. Lived, been, and want to go should sit on the same earth, and they should not all look the same.
 
-I want the details to be easy to edit. I want someone to add the cities they care about, and I want the footprints to walk themselves between those cities. Lived, been, and want to go should all be able to sit on the same earth.
+If you can picture the trip and you cannot picture the code, this should still work for you.
 
-If you can picture a place but you cannot picture how to code a globe, this should still be a tool you can use.
+## Change the places
 
-## Make it yours
+Two files hold the story today.
 
-Today the story lives in two files:
+| File | What to edit |
+| --- | --- |
+| [src/data/places.ts](src/data/places.ts) | Names, years, and the note that shows when you tap a place |
+| [src/data/footprints.ts](src/data/footprints.ts) | The path the steps follow |
 
-- [`src/data/places.ts`](src/data/places.ts) is the names, the years, and the notes.
-- [`src/data/footprints.ts`](src/data/footprints.ts) is the path the steps follow.
-
-Read [docs/MAKE-IT-YOURS.md](docs/MAKE-IT-YOURS.md) before you change anything. It is the short version of how I would want a friend to start.
+Start with [docs/MAKE-IT-YOURS.md](docs/MAKE-IT-YOURS.md). That is the short version I would hand a friend.
 
 ## Run it
 
@@ -41,15 +41,17 @@ npm install
 npm run dev
 ```
 
-Then open the local address the terminal prints. `npm run typecheck` checks the code. `npm run build` builds it.
+Open the address the terminal prints.
 
-## I am looking for help
+`npm run typecheck` checks the code. `npm run build` builds it.
 
-I cannot finish the friendly version of this by myself. If you can code, design, write, or test, I want you here.
+## Help
 
-The open work is on the issues list. Start with anything marked **help wanted**. If you are new to this, start with **good first issue**.
+I cannot finish the easy version of this by myself. If you code, design, write, or test, I want the help.
 
-When you make it yours, or when you fix something, tell me. Open an issue or a pull request and say what you changed. I read them.
+Look at the [issues](https://github.com/coreymcd37/Personal-Atlas/issues). Start with **help wanted**. If this is your first time, start with **good first issue**.
+
+If you make a copy for yourself, or you fix something, tell me. Open an issue or a pull request and say what you changed. I read them.
 
 - [How to help](CONTRIBUTING.md)
 - [How we treat each other](CODE_OF_CONDUCT.md)
@@ -58,6 +60,6 @@ When you make it yours, or when you fix something, tell me. Open an issue or a p
 
 ## License
 
-MIT. Use it, change it, share it. Keep the license with the code. See [LICENSE](LICENSE).
+[MIT](LICENSE). Use it, change it, and share it. Keep the license with the code.
 
 Corey McDaniel
