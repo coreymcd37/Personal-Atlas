@@ -1,0 +1,22 @@
+name: I want to help
+description: Tell me what you can take on, or what you already made.
+title: "Help: "
+labels: ["help wanted"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this
+      options:
+        - I can work on an open issue
+        - I made this globe mine and I am reporting back
+        - I have an idea
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Tell me
+      description: Which issue, what you changed, or what you wish the globe did. I read these.
+    validations:
+      required: true

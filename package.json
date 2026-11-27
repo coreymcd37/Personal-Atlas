@@ -1,6 +1,13 @@
 {
-  "name": "app-builder-workspace",
-  "private": true,
+  "name": "personal-atlas",
+  "private": false,
+  "description": "An open 3D globe. Add where you have lived, where you have been, and where you want to go.",
+  "license": "MIT",
+  "author": "Corey McDaniel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreymcd37/Personal-Atlas.git"
+  },
   "sideEffects": false,
   "type": "module",
   "overrides": {

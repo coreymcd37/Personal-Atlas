@@ -1,0 +1,32 @@
+name: Something is broken
+description: Tell me what the globe did wrong.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Say it in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to see it
+      description: What you clicked, and how far you were zoomed.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Phone, computer, and browser
+      placeholder: iPhone Safari, or a laptop with Chrome
+    validations:
+      required: true
