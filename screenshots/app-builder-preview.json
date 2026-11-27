@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Footfall",
+      "hasCanvas": true,
+      "bodyTextLen": 559,
+      "bodyTextHash": "a654e64d003db046e7ba64380d59e0ef9576a832bc9e022a94dd234b83f579be",
+      "bodyTextPrefix": "Drag the earth to turn it. Scroll or pinch to zoom. Tap a place ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Footfall",
+      "hasCanvas": true,
+      "bodyTextLen": 424,
+      "bodyTextHash": "f59f67c2a8f3dd9d20f4d60c29aee4c1934f7098a7a6e847b67d248bb7f3aade",
+      "bodyTextPrefix": "Key Hide PERSONAL ATLAS Footfall Night Play the trail Pause spin",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
